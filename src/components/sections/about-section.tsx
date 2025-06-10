@@ -13,6 +13,27 @@ export function AboutSection() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+            <Card className="transition-all hover:shadow-lg border-t-4 border-t-amber-600">
+            <CardHeader className="pb-2">
+              <div className="mb-2 w-12 h-12 rounded-full bg-amber-100 dark:bg-amber-900 flex items-center justify-center">
+                <Users className="h-6 w-6 text-amber-600" />
+              </div>
+              <CardTitle className="">AWARENESS DINDI 2025</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-muted-foreground">
+               The Awareness Dindi 2025 will proceed along the traditional route from Alandi to Pandharpur, covering all the stops, raising awareness, providing a helping hand to the warkaris, and distributing cloth bags and steel water bottles. 
+Awareness Through Engagement  From Alandi to Pandharpur
+Puppet Shows conveying environmental and social messages
+Religious and Cultural Performances to attract public interest and participation
+Informative Documentaries displayed on large LED screens
+Pledge Booths encouraging citizens to commit to sustainable practices
+Interactive Engagement Modules to spread awareness in a creative and accessible manner
+              </p>
+            </CardContent>
+          </Card>
           <Card className="transition-all hover:shadow-lg border-t-4 border-t-green-600">
             <CardHeader className="pb-2">
               <div className="mb-2 w-12 h-12 rounded-full bg-green-100 dark:bg-green-900 flex items-center justify-center">
@@ -41,19 +62,7 @@ export function AboutSection() {
             </CardContent>
           </Card>
 
-          <Card className="transition-all hover:shadow-lg border-t-4 border-t-amber-600">
-            <CardHeader className="pb-2">
-              <div className="mb-2 w-12 h-12 rounded-full bg-amber-100 dark:bg-amber-900 flex items-center justify-center">
-                <Users className="h-6 w-6 text-amber-600" />
-              </div>
-              <CardTitle>Awareness Dindi 2025</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-muted-foreground">
-                The Awareness Dindi is a special group within the Wari that focuses specifically on environmental education. This year's route covers over 250 kilometers, passing through 15 towns and villages, with thousands of participants joining our cause.
-              </p>
-            </CardContent>
-          </Card>
+        
         </div>
 
         <div className="mt-16 bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
